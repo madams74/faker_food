@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "faker-food"
+version = "0.1.0"
+description = "Food related provider for the Python Faker library"
+authors = ["Mark Adams <madams74@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "faker_food"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Faker = "^13.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
