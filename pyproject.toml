@@ -17,6 +17,13 @@ pytest = "^7.0.1"
 pytest-cov = "^3.0.0"
 black = "^22.1.0"
 
+[tool.pytest.ini_options]
+addopts = "-ra -v --ignore=.venv --cov=. --cov-report=html"
+python_files = "tests.py test_*.py"
+testpaths = [
+   "tests",
+]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,17 @@
+[run]
+source = .
+omit =
+  *tests/*
+  *manage.py
+  *migrations/*
+  *asgi.py
+  *wsgi.py
+  */__pycache__/*
+  *__init__.py
+  *.venv/*
+
+[report]
+ignore_errors = True
+
+[html]
+skip_empty = True
