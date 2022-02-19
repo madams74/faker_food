@@ -9,7 +9,7 @@ packages = [{include = "faker_food"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Faker = "^13.0.0"
+Faker = "^12.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
