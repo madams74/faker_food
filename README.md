@@ -6,6 +6,11 @@ An add-on provider for the Python Faker module to generate random and/or fake da
 
 `faker_food` provides food-related fake data for testing purposes.
 
+## Installation
+Install the `faker-food` library with your package management tool.
+``` bash
+pip install faker-food
+```
 ## Usage
 Add as a provider to your Faker instance:
 ``` python

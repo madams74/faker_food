@@ -3,9 +3,22 @@ name = "faker_food"
 version = "0.1.0"
 description = "Food related provider for the Python Faker library"
 authors = ["Mark Adams <madams74@gmail.com>"]
-license = "MIT License"
+license = "MIT"
 readme = "README.md"
 packages = [{include = "faker_food"}]
+repository = "https://github.com/madams74/faker_food"
+url="https://github.com/madams74/faker_food"
+keywords = ["faker", "data", "test", "mock", "generator", "food"]
+classifiers = [
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Topic :: Software Development",
+   "Topic :: Software Development :: Libraries :: Python Modules",
+   "Topic :: Software Development :: Testing",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.8"
